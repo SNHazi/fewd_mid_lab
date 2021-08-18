@@ -15,5 +15,194 @@
 /* Globals */
 body {
   font-family: 'Cabin', sans-serif;
+  margin: 0;
 }
 
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rover-header-left{
+  display: flex;
+  align-items: center;
+} 
+
+.rover-header-left a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.rover-header-right{
+  margin-left: 400px;
+}
+
+.rover-header-right a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+.rover-header-right-mobile{
+  display: none;
+}
+
+@media screen and (max-width: 600px){
+  .rover-header-right a:not(:first-child){display: none;}
+  .rover-header-right-mobile{
+    float: right;
+    display: block;
+  }
+}
+
+.rover-hero-container{
+  background-image: url(/img/hero.jpg);
+  background-size: cover;
+  width: 600px;
+  height: 300px;
+  margin: 30px;
+  padding-left: 20px;
+}
+
+.rover-hero-container h1{
+  padding-top: 50px;
+}
+
+.rover-hero-container p{
+  margin-right: 250px;
+}
+
+.rover-button{
+  background-color: green;
+  padding: 10px;
+  text-align: center;
+  margin: 30px;
+  width: 200px;
+}
+
+.rover-cta-mobile{
+  margin-left: 180px;
+}
+.box_container{
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.box_container p{
+  margin: 50px;
+}
+
+.rover-middle-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+.rover-facts-container{
+  margin-left: 20px;
+}
+
+.rover-fact-indiv{
+  display: flex;
+}
+
+
+.rover-fact-indiv h3{
+  margin-left: 30px ;
+}
+
+.rover-fact-indiv p {
+  margin: 10px;
+  padding-left: 20px;
+}
+
+
+.rover-cta-box{
+  margin-right: 40px;
+  padding-left: 100px;
+}
+
+.rover-cta-container{
+  background-color: white;
+  border: 1px solid;
+  
+}
+
+.rover-cta-header{
+  background-color: lightgrey;
+  padding-left: 20px;
+  padding-top: 10px;
+  
+  
+}
+
+.flex_cta_header{
+  display: flex;
+}
+
+.rover-facts{
+  margin: 25px;
+}
+
+.rover-facts li{
+  padding: 10px;
+}
+
+.rover-cta-bottom-container .rover-cta{
+  background-color: green;
+  margin: 50px;
+  padding: 10px;
+}
+
+.rover-cta{
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.rover-protections{
+  padding-top: 20px;
+}
+
+
+.rover-action-shot{
+  background-image: url(/img/lady-with-her-dogs.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.rover-action-quote-container{
+  background-color: white;
+  border: 1px solid;
+  
+}
+
+.rover-quote {
+  padding-left: 20px;
+}
+
+p{
+  padding-left: 20px;
+}
+
+.rover-123-container{
+  margin-top: 100px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.rover-123-container-title{
+  text-align: center;
+}
+
+.rover-123-item-container{
+  margin-left: 90px;
+}
+
+.rover-123-item {
+  justify-content: center;
+}
